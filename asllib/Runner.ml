@@ -44,6 +44,7 @@ type args = {
   use_fine_grained_side_effects : bool;
   use_conflicting_side_effects_extension : bool;
   override_mode : override_mode;
+  infer_mode : bool;
   no_primitives : bool;
   no_stdlib : bool;
   no_stdlib0 : bool;
@@ -76,6 +77,7 @@ let default_args =
     v0_use_split_chunks = false;
     version_eac1 = false;
     capture_output = None;
+    infer_mode = false;
   }
 
 (** Run ASLRef with the supplied arguments, and returns the exit code from the
@@ -158,6 +160,7 @@ let run (args : args) : int =
       args.use_conflicting_side_effects_extension
 
     let err_buffer = Option.map snd args.capture_output
+    let infer_mode = args.infer_mode
   end in
   let module T = Annotate (C) in
   let typed_ast, static_env = T.type_check_ast ast in

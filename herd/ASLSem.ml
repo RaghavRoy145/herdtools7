@@ -119,6 +119,7 @@ module Make (Conf : Config) = struct
     let fine_grained_side_effects = false
     let use_conflicting_side_effects_extension = false
     let override_mode = Asllib.Typing.Permissive
+    let infer_mode = false
     let err_buffer = None
   end)
 

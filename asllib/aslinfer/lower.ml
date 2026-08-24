@@ -198,8 +198,8 @@ let string_of_expr_desc (e : AST.expr) =
   | E_Record _ -> "E_Record"
   | E_Pattern _ -> "E_Pattern"
   | E_GetFields _ -> "E_GetFields"
-  | E_GetEnumArray _ -> "E_GetEnumArray"
-  | E_EnumArray _ -> "E_EnumArray"
+  (* | E_GetEnumArray _ -> "E_GetEnumArray" *)
+  (* | E_EnumArray _ -> "E_EnumArray" *)
   | E_Array _ -> "E_Array"
   | E_GetCollectionFields _ -> "E_GetCollectionFields"
 
@@ -233,7 +233,7 @@ let string_of_lexpr_desc (le : AST.lexpr) =
   | LE_Slice _ -> "LE_Slice"
   | LE_SetFields _ -> "LE_SetFields"
   | LE_Destructuring _ -> "LE_Destructuring"
-  | LE_SetEnumArray _ -> "LE_SetEnumArray"
+  (* | LE_SetEnumArray _ -> "LE_SetEnumArray" *)
   | LE_SetCollectionFields _ -> "LE_SetCollectionFields"
 
 (* Type-name helper used in diagnostics. At the moment, type lowering is partial
@@ -514,7 +514,7 @@ let _expected_call_return_tuple_arity : int option ref = ref None
 let register_type_decls (ast : AST.t) =
   List.iter (fun (d : AST.decl) ->
     match d.desc with
-    | D_TypeDecl (name, ty, _) ->
+    | D_TypeDecl (name, ty) ->
       Hashtbl.replace _type_decl_defs name ty;
       (match ty.desc with
        | T_Record fields | T_Exception fields ->
@@ -906,7 +906,7 @@ let rec lower_expr b (e : AST.expr) : T.Exp.t =
       let rhs = lower_expr b e_pat in
       emit_eq b loc scrutinee rhs
 
-    | Pattern_Any pats ->
+    (* | Pattern_Any pats ->
       begin
         match pats with
         | [] -> bool_const false
@@ -917,11 +917,11 @@ let rec lower_expr b (e : AST.expr) : T.Exp.t =
               emit_lor b loc acc rhs)
             (lower_pattern_match scrutinee p)
             ps
-      end
+      end *)
 
-    | Pattern_Not p ->
+    (* | Pattern_Not p ->
       let v = lower_pattern_match scrutinee p in
-      emit_lnot b loc v
+      emit_lnot b loc v *)
 
     | Pattern_Geq e_pat ->
       let rhs = lower_expr b e_pat in
@@ -941,7 +941,7 @@ let rec lower_expr b (e : AST.expr) : T.Exp.t =
     | Pattern_Mask _ ->
       unsupported_expr "E_Pattern" e "mask patterns not implemented yet"
 
-    | Pattern_Tuple pats ->
+    (* | Pattern_Tuple pats ->
       let n = List.length pats in
       Hashtbl.replace _emitted_tuple_types n true;
       let tmp = materialize_tuple_value_to_lvar b n scrutinee loc in
@@ -949,7 +949,7 @@ let rec lower_expr b (e : AST.expr) : T.Exp.t =
       |> List.mapi (fun i p ->
           let field_v = load_tuple_field_from_lvar b tmp n i loc in
           lower_pattern_match field_v p)
-      |> and_chain
+      |> and_chain *)
       in
     let record_type_name_of_asl_ty ty =
     match ty.desc with
