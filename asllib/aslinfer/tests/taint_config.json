@@ -1,0 +1,8 @@
+{
+  "pulse-taint-sources": [
+    {"procedure": "TaintSource", "kinds": ["Simple"]}
+  ],
+  "pulse-taint-sinks": [
+    {"procedure": "TaintSink", "kinds": ["Simple"]}
+  ]
+}

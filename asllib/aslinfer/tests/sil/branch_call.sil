@@ -1,0 +1,38 @@
+.source_language = "C"
+
+define Clamp(x: int, lo: int, hi: int) : int {
+  #entry:
+    n0: int = load &x
+    n1: int = load &lo
+    n2 = __sil_lt(n0, n1)
+    jmp then_0, else_1
+  #then_0:
+    prune n2
+    n3: int = load &lo
+    ret n3
+  #else_1:
+    prune !n2
+    n4: int = load &x
+    n5: int = load &hi
+    n6 = __sil_gt(n4, n5)
+    jmp then_3, else_4
+  #then_3:
+    prune n6
+    n7: int = load &hi
+    ret n7
+  #else_4:
+    prune !n6
+    n8: int = load &x
+    ret n8
+}
+
+define ClampPositive(x: int) : int {
+  local result: int
+  #entry:
+    n0: int = load &x
+    n1 = Clamp(n0, 0, 100)
+    store &result <- n1 : int
+    n2: int = load &result
+    ret n2
+}
+

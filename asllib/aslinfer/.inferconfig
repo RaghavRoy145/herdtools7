@@ -1,0 +1,8 @@
+{
+  "pulse-taint-sources": [
+    {"procedure": "ASL_Arbitrary"}
+  ],
+  "pulse-taint-sinks": [
+    {"procedure": "DangerousOp"}
+  ]
+}

@@ -1,0 +1,18 @@
+.source_language = "C"
+
+define MyAbs(x: int) : int {
+  #entry:
+    n0: int = load &x
+    n1 = __sil_lt(n0, 0)
+    jmp then_0, else_1
+  #then_0:
+    prune n1
+    n2: int = load &x
+    n3 = __sil_minusa(0, n2)
+    ret n3
+  #else_1:
+    prune !n1
+    n4: int = load &x
+    ret n4
+}
+

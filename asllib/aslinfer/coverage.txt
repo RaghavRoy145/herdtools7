@@ -1,0 +1,346 @@
+FAIL - Unsupported(lexpr LE_SetFields at ../../asllib/tests/ASLDefinition.t/AssignableExpressions.asl:27:4) [positive]: ../../asllib/tests/ASLDefinition.t/AssignableExpressions.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLDefinition.t/EmptyTuple.asl
+FAIL - Unsupported(expr E_GetArray at ../../asllib/tests/ASLDefinition.t/EvaluationOrder.asl:49:6: non-variable array base E_Call) [positive]: ../../asllib/tests/ASLDefinition.t/EvaluationOrder.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLDefinition.t/GuideRule.TupleImmutability.asl
+PASS [expected-negative]: ../../asllib/tests/ASLDefinition.t/MutualRecursion.bad.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/ASLDefinition.t/NamedTypes.asl:21:8: could not resolve struct type for base expression E_Var.f) [positive]: ../../asllib/tests/ASLDefinition.t/NamedTypes.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLDefinition.t/OverridingBad.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLDefinition.t/Patterns.asl:9:7: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLDefinition.t/Patterns.asl
+FAIL - VerificationError [positive]: ../../asllib/tests/ASLDefinition.t/Statements.asl
+FAIL - Unsupported(expr E_GetItem at ../../asllib/tests/ASLDefinition.t/TupleExpressions.asl:30:16: could not resolve tuple type for base expression E_Var) [positive]: ../../asllib/tests/ASLDefinition.t/TupleExpressions.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLDefinition.t/TypingErrorReporting.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.CatchNamed.asl:10:52: could not resolve struct type for base expression E_Var.msg) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.CatchNamed.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.CatchNone.asl
+PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.CheckNonOverlappingSlices.bad.asl
+FAIL - Unsupported(lexpr LE_SetCollectionFields at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.ConcatBitvectors.asl:15:2: collection-field update not implemented yet) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.ConcatBitvectors.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EArbitraryArray.asl:11:14) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EArbitraryArray.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EGetEnumArray.asl:7:7) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EGetEnumArray.asl
+FAIL - Unsupported(expr E_GetItem at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EGetItem.asl:4:11: could not resolve tuple type for base expression E_Var) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EGetItem.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EPattern.asl:6:11: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EPattern.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EUndefIdent.asl
+PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EvalGlobals.bad1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.FUndefIdent.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.GetField.asl:12:18) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.GetField.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.LDDiscard.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.LESetEnumArray.asl:7:12) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.LESetEnumArray.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.LEUndefIdentV0.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.LEUndefIdentV1.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.PMask.asl:4:19: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.PMask.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.PTuple.asl:4:19: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.PTuple.asl
+FAIL - Unsupported(expr E_Unop at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SPrint.asl:13:10: non-integer literal unary minus not verifier-clean yet: E_Literal) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SPrint.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SThrowSomeTyped.asl:10:13: could not resolve struct type for base expression E_Var.a) [positive]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SThrowSomeTyped.asl
+PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SlicesToPositions.bad.asl
+FAIL - Unsupported(lexpr LE_Slice at ../../asllib/tests/ASLSyntaxReference.t/ASTRule.DesugarLHSAccess.asl:11:18: slice assignment form not implemented yet) [positive]: ../../asllib/tests/ASLSyntaxReference.t/ASTRule.DesugarLHSAccess.asl
+FAIL - Unsupported(lexpr LE_SetField at ../../asllib/tests/ASLSyntaxReference.t/ASTRule.ReadModifyWriteField.asl:18:6: could not resolve struct type for base variable __setter_v1_temporary-8.val) [positive]: ../../asllib/tests/ASLSyntaxReference.t/ASTRule.ReadModifyWriteField.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLSyntaxReference.t/GuideRule.DiscardingGlobalStorageDeclarations.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLSyntaxReference.t/GuideRule.DiscardingLocalStorageDeclarations.asl
+FAIL - Unsupported(expr E_GetFields at ../../asllib/tests/ASLSyntaxReference.t/expr2.asl:33:21: p.[x, y]) [positive]: ../../asllib/tests/ASLSyntaxReference.t/expr2.asl
+FAIL - Unsupported(expr E_ATC at ../../asllib/tests/ASLTypingReference.t/TypingRule.ATC.asl:25:12: unsupported cast target) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.ATC.asl
+FAIL - Unsupported(expr E_Unop at ../../asllib/tests/ASLTypingReference.t/TypingRule.ApplyUnopType.asl:12:46: non-integer literal unary minus not verifier-clean yet: E_Literal) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.ApplyUnopType.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.ApproxBottomTop.asl
+FAIL - Unsupported(expr E_GetEnumArray at ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.asl:54:18: enumeration_array_base[[RED]]) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.asl
+PASS [expected-negative]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.bad_empty.asl
+PASS [expected-negative]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.bad_negative_width.asl
+FAIL - Unsupported(expr E_GetEnumArray at ../../asllib/tests/ASLTypingReference.t/TypingRule.BuiltinAggregateTypes.asl:15:12: t2[[CX]]) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BuiltinAggregateTypes.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckATC.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckCommonBitfieldsAlign.Error.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckIsNotCollection.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckNoPrecisionLoss.asl
+FAIL - Unsupported(lexpr LE_Slice at ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckSymbolicallyEvaluable.asl:20:10: slice assignment form not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.CheckSymbolicallyEvaluable.asl
+FAIL - VerificationError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.DeclDependencies.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.EGetBadBitField.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.EGetBadField.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.EGetBadRecordField.asl
+FAIL - Unsupported(expr E_GetFields at ../../asllib/tests/ASLTypingReference.t/TypingRule.EGetFields.asl:35:24: record_var.[bits3_2, bit1, bit0, info]) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.EGetFields.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.EVar.undefined.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LDDiscard.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetBadField.asl
+FAIL - Unsupported(lexpr LE_SetCollectionFields at ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetCollectionFields.asl:8:15: collection-field update not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetCollectionFields.asl
+FAIL - Unsupported(lexpr LE_Slice at ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetField.asl:14:11: slice assignment form not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetField.asl
+FAIL - Unsupported(lexpr LE_SetFields at ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetFields.asl:7:4) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LESetFields.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.LEVar.undefined.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLTypingReference.t/TypingRule.PMask.asl:3:11: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.PMask.asl
+FAIL - Unsupported(expr E_Unop at ../../asllib/tests/ASLTypingReference.t/TypingRule.PRange.asl:4:21: non-integer literal unary minus not verifier-clean yet: E_Literal) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.PRange.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.PrecisionJoin.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.ReduceConstraint.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.RenameSubprograms.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.SubtypeSatisfaction3.asl
+FAIL - Unsupported(expr E_GetEnumArray at ../../asllib/tests/ASLTypingReference.t/TypingRule.TArray.asl:21:30: big_little_arr[[LITTLE]]) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.TArray.asl
+FAIL - ParseError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.TNonDecl.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/ASLTypingReference.t/TypingRule.TypeCheckAST.asl:15:20: could not resolve struct type for base expression E_Var.c) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.TypeCheckAST.asl
+FAIL - TypeError [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.TypeSatisfaction3.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/ASLTypingReference.t/TypingRule.TypecheckDecl.asl:22:15: could not resolve struct type for base expression E_Var.high_bits) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.TypecheckDecl.asl
+FAIL - Unsupported(expr E_Unop at ../../asllib/tests/ASLTypingReference.t/TypingRule.UnopLiterals.asl:6:35: non-integer literal unary minus not verifier-clean yet: E_Literal) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.UnopLiterals.asl
+FAIL - Unsupported(lexpr LE_Slice at ../../asllib/tests/ASLTypingReference.t/TypingRule.UseLexpr.asl:21:10: slice assignment form not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.UseLexpr.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/ASLTypingReference.t/TypingRule.UsePattern.asl:14:8: mask patterns not implemented yet) [positive]: ../../asllib/tests/ASLTypingReference.t/TypingRule.UsePattern.asl
+FAIL - TypeError [positive]: ../../asllib/tests/bitfield-alignment.t/config-global-width.asl
+FAIL - TypeError [positive]: ../../asllib/tests/bitfield-alignment.t/non-constant-global-width.asl
+FAIL - TypeError [positive]: ../../asllib/tests/bitfield-alignment.t/non-constant-width.asl
+FAIL - ParseError [positive]: ../../asllib/tests/collections.t/on-arbitrary.asl
+FAIL - ParseError [positive]: ../../asllib/tests/collections.t/on-function-return-type.asl
+FAIL - TypeError [positive]: ../../asllib/tests/collections.t/on-global-var.asl
+FAIL - ParseError [positive]: ../../asllib/tests/collections.t/on-local-func-arg.asl
+FAIL - TypeError [positive]: ../../asllib/tests/collections.t/on-local-tuple.asl
+FAIL - TypeError [positive]: ../../asllib/tests/collections.t/on-local-var.asl
+FAIL - ParseError [positive]: ../../asllib/tests/collections.t/on-type-declaration.asl
+FAIL - TypeError [positive]: ../../asllib/tests/collections.t/with-non-bitvector-arg.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-div.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-divrm.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mod.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-00.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-01.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-02.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-03.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-04.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-05.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-06.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-07.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-08.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-09.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-mul-10.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-pow.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-shl.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/constraint-shr.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-div.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-divrm.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-mod.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-mul.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-pow.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-shl.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-constraint-shr.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/global-pending.asl
+FAIL - TypeError [positive]: ../../asllib/tests/constraint-size-limits.t/pending.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/for-noreturn.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/if-return-if.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/if-return.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/inherited-always-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/no-return.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/try-01.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/try-04.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/try-05.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/try-06.asl
+FAIL - TypeError [positive]: ../../asllib/tests/control-flow.t/while-noreturn.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/div-constants.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/rat-poly-00.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-div-neg.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-div-undiv-bis.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-div-undiv.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-div-zero.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-divrm-neg.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-divrm-zero.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-mod-neg.asl
+FAIL - TypeError [positive]: ../../asllib/tests/division.t/static-mod-zero.asl
+FAIL - TypeError [positive]: ../../asllib/tests/explicit-parameters.t/duplicate-parameter.asl
+FAIL - TypeError [positive]: ../../asllib/tests/explicit-parameters.t/omit-output-stdlib-param.asl
+FAIL - TypeError [positive]: ../../asllib/tests/explicit-parameters.t/shadowed-parameter.asl
+FAIL - TypeError [positive]: ../../asllib/tests/explicit-parameters.t/undeclared-parameter.asl
+FAIL - TypeError [positive]: ../../asllib/tests/explicit-parameters.t/unused-parameter.asl
+FAIL - TypeError [positive]: ../../asllib/tests/overriding.t/clashing-impdefs-without-implementation.asl
+FAIL - TypeError [positive]: ../../asllib/tests/overriding.t/clashing-impdefs.asl
+FAIL - TypeError [positive]: ../../asllib/tests/overriding.t/clashing-implementations.asl
+FAIL - TypeError [positive]: ../../asllib/tests/overriding.t/implementation-only.asl
+FAIL - TypeError [positive]: ../../asllib/tests/overriding.t/type-check-impdef.asl
+FAIL - TypeError [positive]: ../../asllib/tests/pragma.t/pragma_invalid.asl
+FAIL - TypeError [positive]: ../../asllib/tests/pragma.t/pragma_invalid_stmt.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/double-recursive-constant.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/double-recursive-types.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/fn-val-recursive.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/recursive-constant.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/recursive-type.asl
+FAIL - TypeError [positive]: ../../asllib/tests/recursive.t/type-val-recursive.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/regressions.t/alt-mask-syntax.asl:7:11: mask patterns not implemented yet) [positive]: ../../asllib/tests/regressions.t/alt-mask-syntax.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/anonymous-types-example.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/arg-as-param-call.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/regressions.t/array-with-enums.asl:13:11) [positive]: ../../asllib/tests/regressions.t/array-with-enums.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/asl0-accessor.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/asl0-error-handling-time.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/asl0-patterns.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/asl1-calls-asl0-accessor.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/assign-to-global-immutable.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/assign-v0.asl
+FAIL - Unsupported(expr E_ATC at ../../asllib/tests/regressions.t/atc-tuple.asl:11:11: unsupported cast target) [positive]: ../../asllib/tests/regressions.t/atc-tuple.asl
+PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-shift.asl
+PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-slices.asl
+PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-underconstrained-ctc.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/base_values.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/base_values_empty.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/bug1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/bug2.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/bug3.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/bug4.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/concat-empty.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/duplicate_enumeration_items.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/duplicate_expr_record.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/duplicate_function_args.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/duplicate_record_fields.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/duplicated-otherwise.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/empty-function.asl
+FAIL - Unsupported(lexpr LE_SetEnumArray at ../../asllib/tests/regressions.t/enum-array.asl:9:12) [positive]: ../../asllib/tests/regressions.t/enum-array.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/regressions.t/exceptions.asl:46:39: could not resolve struct type for base expression E_Var.opcode) [positive]: ../../asllib/tests/regressions.t/exceptions.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/getter_without_setter.asl
+FAIL - VerificationError [positive]: ../../asllib/tests/regressions.t/inherit-integer-constraints.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/integer-accessed-bitvector.asl
+FAIL - Unsupported(lexpr LE_Slice at ../../asllib/tests/regressions.t/lhs-expressivity.asl:12:9: slice assignment form not implemented yet) [positive]: ../../asllib/tests/regressions.t/lhs-expressivity.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/lhs-tuple-fields-same-field.asl
+FAIL - Unsupported(expr E_Pattern at ../../asllib/tests/regressions.t/masks.asl:3:10: mask patterns not implemented yet) [positive]: ../../asllib/tests/regressions.t/masks.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/no-tabs-in-block-comments.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/no-tabs-in-line-comments.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/no-tabs-in-strings.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/no-tabs.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/nonempty-getter-called-without-slices.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/nonempty-setter-called-without-slices.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/noreturn_function.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/overlapping-slices.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/pattern-masks-no-braces.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/rdiv_checks.asl
+FAIL - Unsupported(expr E_GetFields at ../../asllib/tests/regressions.t/record-getfields.asl:15:10: x.[b, c]) [positive]: ../../asllib/tests/regressions.t/record-getfields.asl
+FAIL - Unsupported(expr E_GetField at ../../asllib/tests/regressions.t/records.asl:35:26: could not resolve struct type for base expression E_GetField.subfieldB) [positive]: ../../asllib/tests/regressions.t/records.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/same-precedence.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/same-precedence2.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/setter_without_getter.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/shadow-banning-bug-2.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/shadow-banning-bug.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/subtype-satisfaction-arrray-illegal.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/throw-local-env.asl
+FAIL - Unsupported(expr E_GetItem at ../../asllib/tests/regressions.t/tuple_items.asl:4:9: could not resolve tuple type for base expression E_Var) [positive]: ../../asllib/tests/regressions.t/tuple_items.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/type_satisfaction_illegal_f3.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/type_satisfaction_illegal_f4.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/typed-arg-as-param-call.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/typed-param-call.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/typing-assign-v0.asl
+FAIL - TypeError [positive]: ../../asllib/tests/regressions.t/undeclared-variable.asl
+FAIL - ParseError [positive]: ../../asllib/tests/regressions.t/unreachable-v0.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/assert-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/assert-write.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-type-uses-let.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-config-through-func.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-config.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-let-through-func.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-let.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-unknown.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-var-through-func.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/config-uses-var.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-local-type-global-let.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-read.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-sig-let.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-throw-caught.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-unknown.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-func-write.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/constant-rec.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/for-throw-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/for-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/for-write-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/for-write.asl
+FAIL - ParseError [positive]: ../../asllib/tests/side-effects.t/func-decl-0.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/print-non-readonly.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/rec-assert-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/rec-local-type.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-local-var.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-read-local.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-read.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-throw.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-unknown.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/type-write.asl
+FAIL - TypeError [positive]: ../../asllib/tests/side-effects.t/use-func-decl.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/CPositive1-1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/CPositive3.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/CPositive7.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/HExample16.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/HExample17.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/HExample18.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/NegParam.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TDegraded13-sets1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TDegraded13-sets2.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TDegraded13.asl
+PASS [expected-negative]: ../../asllib/tests/typing.t/TNegative3.asl
+PASS [expected-negative]: ../../asllib/tests/typing.t/TNegative6.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive11.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive13.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive4-1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive4-2.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive4-4.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TPositive8-1.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TReconsider4-0.asl
+FAIL - TypeError [positive]: ../../asllib/tests/typing.t/TReconsider4-1.asl
+
+=== All tests, raw result counts ===
+Total:          1078
+PASS:           624 (57.9%)
+Unsupported:    47
+Type error:     335
+Parse error:    69
+Verification:   3
+Other:          0
+
+=== Positive tests, all frontend+lowering results ===
+Total:          867
+PASS:           613 (70.7%)
+Unsupported:    47
+Type error:     170
+Parse error:    34
+Verification:   3
+Other:          0
+
+=== Positive tests reaching lower.ml ===
+Total:          663
+PASS:           613 (92.5%)
+Unsupported:    47
+Type error:     0
+Parse error:    0
+Verification:   3
+Other:          0
+
+=== Expected-negative ASLRef tests ===
+Total:                    211
+Expected parse/type fail:  200
+Unexpected PASS:           11
+Unsupported in lower.ml:   0
+Verification error:        0
+Other:                     0
+
+=== Top unsupported lowering cases, positive tests only ===
+      8  expr E_Pattern                       example: ../../asllib/tests/ASLDefinition.t/Patterns.asl
+         expr E_Pattern at ../../asllib/tests/ASLDefinition.t/Patterns.asl:9:7: mask patterns not implemented yet
+      7  expr E_GetField                      example: ../../asllib/tests/ASLDefinition.t/NamedTypes.asl
+         expr E_GetField at ../../asllib/tests/ASLDefinition.t/NamedTypes.asl:21:8: could not resolve struct type for base expression E_Var.f
+      6  lexpr LE_SetEnumArray                example: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EArbitraryArray.asl
+         lexpr LE_SetEnumArray at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EArbitraryArray.asl:11:14
+      5  lexpr LE_Slice                       example: ../../asllib/tests/ASLSyntaxReference.t/ASTRule.DesugarLHSAccess.asl
+         lexpr LE_Slice at ../../asllib/tests/ASLSyntaxReference.t/ASTRule.DesugarLHSAccess.asl:11:18: slice assignment form not implemented yet
+      4  expr E_Unop                          example: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SPrint.asl
+         expr E_Unop at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SPrint.asl:13:10: non-integer literal unary minus not verifier-clean yet: E_Literal
+      3  expr E_GetItem                       example: ../../asllib/tests/ASLDefinition.t/TupleExpressions.asl
+         expr E_GetItem at ../../asllib/tests/ASLDefinition.t/TupleExpressions.asl:30:16: could not resolve tuple type for base expression E_Var
+      3  expr E_GetEnumArray                  example: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.asl
+         expr E_GetEnumArray at ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.asl:54:18: enumeration_array_base[[RED]]
+      3  expr E_GetFields                     example: ../../asllib/tests/ASLSyntaxReference.t/expr2.asl
+         expr E_GetFields at ../../asllib/tests/ASLSyntaxReference.t/expr2.asl:33:21: p.[x, y]
+      2  expr E_ATC                           example: ../../asllib/tests/ASLTypingReference.t/TypingRule.ATC.asl
+         expr E_ATC at ../../asllib/tests/ASLTypingReference.t/TypingRule.ATC.asl:25:12: unsupported cast target
+      2  lexpr LE_SetCollectionFields         example: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.ConcatBitvectors.asl
+         lexpr LE_SetCollectionFields at ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.ConcatBitvectors.asl:15:2: collection-field update not implemented yet
+      2  lexpr LE_SetFields                   example: ../../asllib/tests/ASLDefinition.t/AssignableExpressions.asl
+         lexpr LE_SetFields at ../../asllib/tests/ASLDefinition.t/AssignableExpressions.asl:27:4
+      1  expr E_GetArray                      example: ../../asllib/tests/ASLDefinition.t/EvaluationOrder.asl
+         expr E_GetArray at ../../asllib/tests/ASLDefinition.t/EvaluationOrder.asl:49:6: non-variable array base E_Call
+      1  lexpr LE_SetField                    example: ../../asllib/tests/ASLSyntaxReference.t/ASTRule.ReadModifyWriteField.asl
+         lexpr LE_SetField at ../../asllib/tests/ASLSyntaxReference.t/ASTRule.ReadModifyWriteField.asl:18:6: could not resolve struct type for base variable __setter_v1_temporary-8.val
+
+=== Positive tests with Textual verification errors ===
+  ../../asllib/tests/ASLDefinition.t/Statements.asl
+  ../../asllib/tests/ASLTypingReference.t/TypingRule.DeclDependencies.asl
+  ../../asllib/tests/regressions.t/inherit-integer-constraints.asl
+
+=== Expected-negative tests with unexpected result ===
+  PASS [expected-negative]: ../../asllib/tests/ASLDefinition.t/MutualRecursion.bad.asl
+  PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.CheckNonOverlappingSlices.bad.asl
+  PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.EvalGlobals.bad1.asl
+  PASS [expected-negative]: ../../asllib/tests/ASLSemanticsReference.t/SemanticsRule.SlicesToPositions.bad.asl
+  PASS [expected-negative]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.bad_empty.asl
+  PASS [expected-negative]: ../../asllib/tests/ASLTypingReference.t/TypingRule.BaseValue.bad_negative_width.asl
+  PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-shift.asl
+  PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-slices.asl
+  PASS [expected-negative]: ../../asllib/tests/regressions.t/bad-underconstrained-ctc.asl
+  PASS [expected-negative]: ../../asllib/tests/typing.t/TNegative3.asl
+  PASS [expected-negative]: ../../asllib/tests/typing.t/TNegative6.asl

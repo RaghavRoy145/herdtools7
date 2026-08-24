@@ -1,0 +1,4 @@
+property NoArbitrary
+  message "ARBITRARY value is reachable"
+  start -> start: *
+  start -> error: "ASL_Arbitrary"(R)

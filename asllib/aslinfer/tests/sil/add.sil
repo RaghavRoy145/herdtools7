@@ -1,0 +1,10 @@
+.source_language = "C"
+
+define Add(a: int, b: int) : int {
+  #entry:
+    n0: int = load &a
+    n1: int = load &b
+    n2 = __sil_plusa(n0, n1)
+    ret n2
+}
+

@@ -1,0 +1,21 @@
+.source_language = "C"
+
+define Double(x: int) : int {
+  #entry:
+    n0: int = load &x
+    n1: int = load &x
+    n2 = __sil_plusa(n0, n1)
+    ret n2
+}
+
+define CallDouble(n: int) : int {
+  local r: int
+  #entry:
+    n0: int = load &n
+    n1 = Double(n0)
+    store &r <- n1 : int
+    n2: int = load &r
+    n3 = __sil_plusa(n2, 1)
+    ret n3
+}
+

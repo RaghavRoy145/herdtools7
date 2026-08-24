@@ -1,0 +1,13 @@
+FAIL: ./proto_arbitrary.asl
+FAIL: ./proto_arithmetic.asl
+FAIL: ./proto_array.asl
+FAIL: ./proto_assert_call.asl
+FAIL: ./proto_branch.asl
+FAIL: ./proto_enum.asl
+FAIL: ./proto_loops.asl
+FAIL: ./proto_record_uninit.asl
+FAIL: ./proto_record.asl
+FAIL: ./proto_taint.asl
+FAIL: ./proto_topl.asl
+FAIL: ./proto_tuple.asl
+FAIL: ./proto_uninit.asl

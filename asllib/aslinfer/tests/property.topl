@@ -1,0 +1,4 @@
+property NoUnpredictable
+  message "UNPREDICTABLE behavior is reachable"
+  start -> start: *
+  start -> error: "UNPREDICTABLE"(R)

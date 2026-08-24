@@ -1,0 +1,28 @@
+.source_language = "C"
+
+define UNDEFINED() : int {
+  #entry:
+    ret 0
+}
+
+define CheckAlign(addr: int) : int {
+  local u: int
+  #entry:
+    n0: int = load &addr
+    n1 = __sil_mod(n0, 4)
+    n2 = __sil_ne(n1, 0)
+    jmp then_0, else_1
+  #then_0:
+    prune n2
+    n3 = UNDEFINED()
+    store &u <- n3 : int
+    n4: int = load &u
+    ret n4
+  #else_1:
+    prune !n2
+    jmp merge_2
+  #merge_2:
+    n5: int = load &addr
+    ret n5
+}
+

@@ -1,0 +1,13 @@
+.source_language = "C"
+
+define SafeDiv(x: int, y: int) : int {
+  #entry:
+    n0: int = load &y
+    n1 = __sil_ne(n0, 0)
+    prune n1
+    n2: int = load &x
+    n3: int = load &y
+    n4 = __sil_divi(n2, n3)
+    ret n4
+}
+

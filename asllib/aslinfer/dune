@@ -1,0 +1,31 @@
+; Shared lowering library
+(library
+ (name aslinfer_lib)
+ (modules lower)
+ (ocamlopt_flags (:standard -w -40-42))
+ (ocamlc_flags (:standard -w -40-42))
+ (libraries aslref infer.Textuallib))
+
+; Main executable
+(executable
+ (name aslinfer)
+ (public_name aslinfer)
+ (modules aslinfer)
+ (libraries aslinfer_lib aslref infer.Textuallib))
+
+; Test runner
+(executable
+ (name aslinfer_test)
+ (modules aslinfer_test)
+ (libraries aslinfer_lib aslref infer.Textuallib))
+
+; Run tests via dune test
+(rule
+ (alias runtest)
+ (deps
+  (:runner aslinfer_test.exe)
+  (source_tree %{workspace_root}/asllib/tests))
+ (action
+  (chdir
+   %{workspace_root}
+   (run %{runner} -- -q asllib/tests))))

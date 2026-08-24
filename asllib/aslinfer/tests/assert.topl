@@ -1,0 +1,4 @@
+property NoAssertionFailure
+  message "Assertion failure is reachable"
+  start -> start: *
+  start -> error: "ASL_AssertionFailure"(R)
